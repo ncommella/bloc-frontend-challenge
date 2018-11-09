@@ -21,22 +21,17 @@ main {
   background-color: #C4C4C4;
 }
 
+.line-row {
+  margin: 18px 0 0 6px;
+}
+
 .dot {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background-color: red;
   display: block;
   text-align: center;
   line-height: 40px;
-}
-
-.dot h2 {
-  color: #fff;
-  font-size: 1.8em;
-  font-weight: bold;
-  display: inline-block;
-  text-align: center;
 }
 
 .search {
@@ -58,4 +53,32 @@ main {
   font-size: 2em;
   height: 56px;
   justify-content: space-between;
+}
+
+.dot h2 {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.eastbound .dot {
+  background-color: #9C27B0;
+}
+
+.northbound .dot {
+  background-color: #4CAF50;
+}
+
+.out-of-service .dot {
+  background-color: #B93426;
+}
+
+.southbound .dot {
+  background-color: #00BCD4;
+}
+
+.reroute .dot {
+  background-color: #FF9800;
 }
