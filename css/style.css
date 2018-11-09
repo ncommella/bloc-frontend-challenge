@@ -14,7 +14,17 @@ header {
 
 main {
   background-color: #FFFFFF;
+  padding-bottom: 18px;
   margin: 0 8px;
+}
+
+.bottom-nav {
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px -1px 5px grey;
+  display: flex;
+  height: 56px;
+  justify-content: space-around;
 }
 
 .container {
@@ -46,6 +56,10 @@ main {
   line-height: 40px;
 }
 
+.nav-button {
+  text-align: center;
+}
+
 .search {
   margin-right: 13px;
 }
@@ -57,6 +71,10 @@ main {
   margin: 8px 8px 0 8px;
 }
 
+.stops {
+  color: #00BCD4;
+}
+
 .top-nav {
   align-items: center;
   background-color: #00BCD4;
@@ -65,6 +83,10 @@ main {
   font-size: 2em;
   height: 56px;
   justify-content: space-between;
+}
+
+.bottom-nav h3 {
+  font-size: 1.2em;
 }
 
 .dot h3 {
