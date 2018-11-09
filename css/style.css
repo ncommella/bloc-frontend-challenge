@@ -32,11 +32,6 @@ main {
   background-color: #EEE;
 }
 
-.line-row {
-  display: inline-block;
-  margin: 18px 0 0 6px;
-}
-
 .direction {
   display: flex;
   flex-direction: column;
@@ -53,11 +48,25 @@ main {
   margin-right: 17px;
 }
 
+.image-caption {
+  background-color: rgba(0, 0, 0, 0.54);
+  position: absolute;
+  top: 183px;
+  width: 236px;
+}
+
 .jackson {
   line-height: 40px;
 }
 
+.line-row {
+  display: inline-block;
+  margin: 18px 0 0 6px;
+}
+
 .nav-button {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1.2em;
   text-align: center;
 }
 
@@ -70,6 +79,7 @@ main {
   background-size: cover;
   height: 231px;
   margin: 8px 8px 0 8px;
+  position: relative;
 }
 
 .stops {
@@ -102,6 +112,15 @@ main {
   background-color: #9C27B0;
 }
 
+.image-caption h2 {
+  color: #FFF;
+  font-size: 2.4em;
+  font-weight: 300;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
 .line-row h2 {
   font-size: 2.2em;
   margin-left: 17px;
@@ -122,10 +141,10 @@ main {
   background-color: #B93426;
 }
 
-.southbound .dot {
-  background-color: #00BCD4;
-}
-
 .reroute .dot {
   background-color: #FF9800;
+}
+
+.southbound .dot {
+  background-color: #00BCD4;
 }
