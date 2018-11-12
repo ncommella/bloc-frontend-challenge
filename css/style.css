@@ -3,7 +3,7 @@
 body {
   font-family: Roboto;
   font-size: 10px;
-  max-width: 360px;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 header {
@@ -13,10 +13,9 @@ header {
 }
 
 main {
-  background-color: #FFFFFF;
-  box-shadow: 1px 0px 5px grey, -1px 0px 5px grey;
-  padding-bottom: 18px;
-  margin: 0 8px;
+  background-color: #EEE;
+  margin: 0 auto;
+  max-width: 360px;
 }
 
 .bottom-nav {
@@ -28,8 +27,11 @@ main {
   justify-content: space-around;
 }
 
-.container {
-  background-color: #EEE;
+.bus-list {
+  background-color: #FFFFFF;
+  box-shadow: 1px 0px 5px grey, -1px 0px 5px grey;
+  padding-bottom: 18px;
+  margin: 0 8px;
 }
 
 .direction {
@@ -38,14 +40,15 @@ main {
 }
 
 .dot {
-  height: 40px;
-  width: 40px;
+  background-color: #00BCD4;
   border-radius: 50%;
   display: block;
-  text-align: center;
-  line-height: 40px;
   float: left;
+  height: 40px;
+  line-height: 40px;
   margin-right: 17px;
+  text-align: center;
+  width: 40px;
 }
 
 .image-caption {
@@ -72,6 +75,10 @@ main {
 
 .search {
   margin-right: 13px;
+}
+
+.status-bar {
+  height: 24px;
 }
 
 .stop-image {
@@ -108,10 +115,6 @@ main {
   text-align: center;
 }
 
-.eastbound .dot {
-  background-color: #9C27B0;
-}
-
 .image-caption h2 {
   color: #FFF;
   font-size: 2.4em;
@@ -122,29 +125,31 @@ main {
 }
 
 .line-row h2 {
-  font-size: 2.2em;
+  font-size: 2.1em;
   margin-left: 17px;
   margin-bottom: 3px;
 }
 
-.line-row p {
-  font-size: 1.6em;
-  font-weight: 300;
-  align-self: flex-end;
+.line-row h4 {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 900;
+  margin-right: 8px;
 }
 
-.northbound .dot {
-  background-color: #4CAF50;
+.line-row p {
+  font-size: 1.5em;
+  font-weight: 300;
 }
 
 .out-of-service .dot {
-  background-color: #B93426;
+  background-color: rgba(0, 0, 0, 0.54);
+}
+
+.out-of-service h2, p {
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .reroute .dot {
   background-color: #FF9800;
-}
-
-.southbound .dot {
-  background-color: #00BCD4;
 }
