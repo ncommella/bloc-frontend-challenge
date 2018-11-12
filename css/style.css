@@ -18,6 +18,12 @@ main {
   max-width: 360px;
 }
 
+span {
+  font-size: .8em;
+  font-weight: 900;
+  text-align: right;
+}
+
 .bottom-nav {
   align-items: center;
   background-color: #fff;
@@ -125,7 +131,7 @@ main {
 }
 
 .line-row h2 {
-  font-size: 2.1em;
+  font-size: 2em;
   margin-left: 17px;
   margin-bottom: 3px;
 }
